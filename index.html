@@ -6,22 +6,24 @@
   <body>
     
 <!-- Top of Page -->
-    <div id="top">
+    <header id="top">
       <h1>Hello, this is my webpage for my Interactive Tech class!</h1>
       <p>Here is the paragraph text required for the assignment.</p>
       <h4>Julie Wang</h4>
     
       <br>
       <p>I've also added some other random stuff below, for fun:</p>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#links">Links</a></li>
-      </ul>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#links">Links</a></li>
+        </ul>
+      </nav>
       <hr>
-    </div>
+    </header>
 
 <!-- About Section -->
-    <div id="about">
+    <main id="about">
       <h2>A little bit about me</h2>
       <figure>
         <img alt="A doodle of a girl, supposed to represent Julie." src="https://media.discordapp.net/attachments/703311525737267331/1230944409655312475/Julie.png?ex=66352951&is=6622b451&hm=b113052835a17f3ecbc1ff48ccc0891085d0fda530119779b296bf1aba8bd9a5&=&format=webp&quality=lossless&width=350&height=350">
@@ -36,6 +38,7 @@
         I'd like to try out some stuff I learned on Codecademy (making a table):</p>
         <br>
         <br>
+<!-- About/Table -->
         <table>
           <thead>
             <th>Day of the Week</th>
@@ -84,18 +87,36 @@
         </table>
   
       <br>
-      <p>Thanks for reading!</p>
+      <p>Thanks for reading!
+<!-- About/Slider -->
+      <br>
+      Here's a random slider to interact with. Maybe you can indicate how much you enjoyed my webpage.</p>
+      <br>
+      
+      <div class="range">
+        <input type="range" min="1" max="5" steps="1" value="1">
+      </div>
+      
+      <ul class="range-labels">
+        <li class="active selected">I hated it</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li>I loved it</li>
+      </ul>
+      <p>(It doesn't submit anywhere.)</p>
+      <br>
       <h4>Julie Wang</h4>
-    </div>
+    </main>
   <hr>
 <!-- Links Section -->
-    <div id="links">
+    <footer id="links">
       <h2>Links</h2>
         <ul>
           <li><a href="https://www.linkedin.com/in/juliewang03/">LinkedIn</a></li>
           <li><a href="https://www.julies.work/">Portfolio (last updated Oct. 2023)</a></li>
           <li><a href="#top">Back to top of page</a></li>
         </ul>
-    </div>
+    </footer>
   </body>
 </html>
